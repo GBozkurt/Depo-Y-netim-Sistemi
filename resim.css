@@ -1,0 +1,33 @@
+.bgs {
+    background-image: url('resim/bg.jpg');
+    background-size: cover; /* Arka plan resmini ekran boyutuna sığdır */
+    background-position: absolute; /* Arka plan resmini ekranda ortala */
+}
+
+.bgh {
+    background-image: url('resim/bgh.jpg');
+    background-size: cover; /* Arka plan resmini ekran boyutuna sığdır */
+    background-position: absolute; /* Arka plan resmini ekranda ortala */
+}
+label {
+    color: rgb(13, 110, 253);
+}
+
+.link{
+    color: rgb(255, 255, 255);
+    margin-bottom: 5px;
+}
+.header{
+    color: rgb(13, 110, 253);
+    margin-bottom: 5px;
+}
+.fixed-bottom-right {
+    position: fixed; /* Sabit konum */
+    bottom: 20px; /* Alt kenara 20 piksel boşluk */
+    right: 20px; /* Sağ kenara 20 piksel boşluk */
+  }
+  .fixed-bottom-admin {
+    position: fixed; /* Sabit konum */
+    bottom: 75px; /* Alt kenara 20 piksel boşluk */
+    right: 20px; /* Sağ kenara 20 piksel boşluk */
+  }
